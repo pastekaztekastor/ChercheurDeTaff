@@ -1,0 +1,96 @@
+[
+    {
+        "nom": "Université de Limoges",
+        "adresse": "Avenue Albert Thomas",
+        "zipCode": 87000,
+        "Ville": "Limoges",
+        "mailDeContact": [
+            "email1@example.com",
+            "email2@example.com"
+        ],
+        "aPropos": "Informations sur la personne",
+        "historiqueDeMail": [
+            {
+                "mailDestinaire": "maildudestinaire@exemple.com",
+                "mailExpediteur": "maildelepediteur@exemple.com",
+                "sujet": "Sujet du mail",
+                "content": "Contenu du mail",
+                "phase": "lqisudf",
+                "date": "12.12.1212 - 12:20"
+            },
+            {
+                "mailDestinaire": "maildudestinaire@exemple.com",
+                "mailExpediteur": "maildelepediteur@exemple.com",
+                "sujet": "Sujet du mail",
+                "content": "Contenu du mail",
+                "phase": "lqisudf",
+                "date": "12.12.1212 - 12:20"
+            },
+            {
+                "mailDestinaire": "maildudestinaire@exemple.com",
+                "mailExpediteur": "maildelepediteur@exemple.com",
+                "sujet": "Sujet du mail",
+                "content": "Contenu du mail",
+                "phase": "lqisudf",
+                "date": "12.12.1212 - 12:20"
+            },
+            {
+                "mailDestinaire": "maildudestinaire@exemple.com",
+                "mailExpediteur": "maildelepediteur@exemple.com",
+                "sujet": "Sujet du mail",
+                "content": "Contenu du mail",
+                "phase": "Opportunité",
+                "date": "22.11.2023 - 12:20"
+            },
+            {
+                "mailDestinaire": "maildudestinaire@exemple.com",
+                "mailExpediteur": "maildelepediteur@exemple.com",
+                "sujet": "Sujet du mail",
+                "content": "Contenu du mail",
+                "phase": "Opportunité",
+                "date": "22.11.2023 - 12:20"
+            }
+        ],
+        "phase": "Phase actuelle",
+        "active": true,
+        "travailAPourvoir": [
+            "email1@example.com",
+            "email2@example.com"
+        ]
+    },
+    {
+        "nom": "Une autre merde",
+        "adresse": "Avenue Albert Thomas",
+        "zipCode": 87000,
+        "Ville": "Limoges",
+        "mailDeContact": [
+            "email1@example.com",
+            "email2@example.com"
+        ],
+        "aPropos": "Informations sur la personne",
+        "historiqueDeMail": [
+            {
+                "mailDestinaire": "maildudestinaire@exemple.com",
+                "mailExpediteur": "maildelepediteur@exemple.com",
+                "sujet": "Sujet du mail",
+                "content": "Contenu du mail",
+                "phase": "lqisudf",
+                "date": "12.12.1212 - 12:20"
+            },
+            {
+                "mailDestinaire": "maildudestinaire@exemple.com",
+                "mailExpediteur": "maildelepediteur@exemple.com",
+                "sujet": "Sujet du mail",
+                "content": "Contenu du mail",
+                "phase": "Opportunité",
+                "date": "10.11.2023 - 12:20"
+            }
+        ],
+        "phase": "Phase actuelle",
+        "active": true,
+        "travailAPourvoir": [
+            "email1@example.com",
+            "email2@example.com"
+        ]
+    }
+]

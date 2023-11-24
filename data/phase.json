@@ -1,0 +1,75 @@
+[
+    {
+        "nom": "Opportunité",
+        "RelanceDurée": [
+            5,
+            3,
+            20
+        ],
+        "mailType": {
+            "premierContact": {
+                "sujet": "Candidature Spontanée - Profil en Informatique",
+                "content": "Madame, Monsieur,\n Titulaire d'un DUT en Génie Électrique et Informatique Industrielle ainsi que d'une licence en Informatique, je m'intéresse vivement à votre entreprise et souhaite savoir s'il existe des opportunités correspondant à mon profil.\n Ma formation et mes expériences précédentes m'ont permis d'acquérir des compétences en informatique que je souhaiterais mettre à profit au sein de votre structure, si des postes s'avéraient adaptés.\n Je vous prie de bien vouloir m'indiquer la procédure de candidature à suivre pour toute opportunité éventuelle au sein de votre entreprise.\n Vous trouverez plus de détails sur mon parcours dans le CV joint. Je serais ravi d'échanger davantage sur la manière dont je pourrais contribuer à vos projets.\n Dans l'attente de vos informations, je vous remercie pour votre attention et vous adresse, Madame, Monsieur, mes respectueuses salutations.\n Cordialement,\n Mathurin Champémont"
+            },
+            "relanceReguliere": {
+                "sujet": "Relance - Demande d'Informations Complémentaires - Candidature Spontanée",
+                "content": "Madame, Monsieur,\n Je me permets de vous relancer concernant ma précédente candidature pour un éventuel poste au sein de votre entreprise en tant que professionnel en informatique car j'ai pris contact avec vous il y a peu mais je n'ai pas eu de réponse.\n J'aurais souhaité savoir s'il était possible d'obtenir des informations complémentaires sur le processus de recrutement ou sur les opportunités actuelles au sein de votre équipe, correspondant à mon profil.\n Mon intérêt pour votre entreprise est toujours vif, et je suis convaincu que mes compétences pourraient contribuer positivement à vos projets.\n Je vous remercie par avance pour toute information que vous pourriez me communiquer et je reste à votre disposition pour fournir tout élément additionnel que vous jugerez nécessaire.\n En espérant avoir l'opportunité d'échanger plus en détail, je vous adresse, Madame, Monsieur, mes salutations distinguées.\n Cordialement,\n Mathurin Champémont"
+            }
+        },
+        "objectif": "Obtenir des informations sur les opportunités d'emploi dans l'entreprise et établir un contact fructueux. C'est la première phase de recherche d'emploi et de relance."
+    },
+    {
+        "nom": "Suivi de Candidature",
+        "RelanceDurée": [
+            5,
+            4
+        ],
+        "mailType": {
+            "premierContact": {
+                "sujet": "Confirmation de Réception - Candidature Spontanée CHAMPÉMONT",
+                "content": "Bonjour,\n Je souhaitais simplement m'assurer de la bonne réception de ma candidature pour le poste de [Nom du poste] que j'ai soumis le [Date d'envoi]. Pouvez-vous me confirmer sa réception officielle ?Je vous remercie par avance pour votre retour.\n Cordialement,\n Mathurin Champémont"
+            },
+            "relanceReguliere": {
+                "sujet": "Relance - Suivi de Candidature CHAMPÉMONT",
+                "content": "Bonjour,\n Suite à ma candidature pour le poste de [Nom du poste] et afin de m'assurer que celle-ci a bien été prise en compte, je me permets de vous relancer.\n Je reste très intéressé par cette opportunité au sein de votre entreprise et je souhaitais savoir si une décision avait été prise ou si d'autres étapes sont prévues dans le processus de recrutement.\n Merci par avance pour toute information que vous pourrez me fournir.\n Cordialement,\n Mathurin Champémont"
+            }
+        },
+        "objectif": "Confirmer la réception officielle de la candidature, puis effectuer des relances régulières en cas d'absence de réponse pour maintenir l'engagement et le suivi de la candidature."
+    },
+    {
+        "nom": "Suivi après Entretien",
+        "RelanceDurée": [
+            7,
+            5,
+            3
+        ],
+        "mailType": {
+            "premierContact": {
+                "sujet": "Relance - Suite à l'Entretien d'Embauche",
+                "content": "Bonjour,\n J'espère que vous allez bien. Suite à notre entretien d'embauche pour le poste de [Nom du poste], je souhaitais savoir si vous aviez déjà pris une décision ou si d'autres étapes sont prévues dans le processus de recrutement.\n Je reste très intéressé par cette opportunité au sein de votre entreprise et je suis disponible pour toute information supplémentaire que vous pourriez nécessiter.Merci par avance pour votre retour et votre considération.\n Cordialement,\n Mathurin Champémont"
+            },
+            "relanceReguliere": {
+                "sujet": "Relance - Suite à l'Entretien d'Embauche",
+                "content": "Bonjour,\n J'espère que vous allez bien. Suite à notre entretien d'embauche pour le poste de [Nom du poste], je souhaitais savoir si vous aviez déjà pris une décision ou si d'autres étapes sont prévues dans le processus de recrutement.\n Je reste très intéressé par cette opportunité au sein de votre entreprise et je suis disponible pour toute information supplémentaire que vous pourriez nécessiter.Merci par avance pour votre retour et votre considération.\n Cordialement,\n Mathurin Champémont"
+            }
+        },
+        "objectif": "Effectuer des relances régulières après l'entretien d'embauche pour savoir si celui-ci a été concluant ou s'il reste des étapes à suivre dans le processus de recrutement."
+    },
+    {
+        "nom": "Réitération de la Demande",
+        "RelanceDurée": [
+            100
+        ],
+        "mailType": {
+            "premierContact": {
+                "sujet": "Relance - Réitération de la Demande",
+                "content": "Bonjour,\n Je me permets de reprendre contact avec vous après plusieurs mois, dans l'espoir que de nouvelles opportunités se présentent au sein de votre entreprise. Bien que vous n'ayez actuellement aucun poste à pourvoir, je reste vivement intéressé par votre environnement professionnel.\n Je vous serais reconnaissant de bien vouloir garder mon profil en mémoire pour toute opportunité future correspondant à mon domaine d'expertise. N'hésitez pas à me contacter si de nouveaux postes se créent ou si vous pensez qu'un échange serait pertinent pour discuter de tout rôle potentiellement compatible avec mon profil.\n Je vous remercie par avance pour votre attention et votre considération.\n Cordialement,\n Mathurin Champémont"
+            },
+            "relanceReguliere": {
+                "sujet": "Relance - Réitération de la Demande",
+                "content": "Bonjour,\n Je me permets de reprendre contact avec vous après plusieurs mois, dans l'espoir que de nouvelles opportunités se présentent au sein de votre entreprise. Bien que vous n'ayez actuellement aucun poste à pourvoir, je reste vivement intéressé par votre environnement professionnel.\n Je vous serais reconnaissant de bien vouloir garder mon profil en mémoire pour toute opportunité future correspondant à mon domaine d'expertise. N'hésitez pas à me contacter si de nouveaux postes se créent ou si vous pensez qu'un échange serait pertinent pour discuter de tout rôle potentiellement compatible avec mon profil.\n Je vous remercie par avance pour votre attention et votre considération.\n Cordialement,\n Mathurin Champémont"
+            }
+        },
+        "objectif": "Rester en contact avec l'entreprise pour de potentielles opportunités à venir malgré l'absence de poste actuel correspondant au profil."
+    }
+]
