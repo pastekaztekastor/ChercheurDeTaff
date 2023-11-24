@@ -1,9 +1,12 @@
 import json
+import os
 from datetime import datetime
-
+from flask import Flask
 from Entreprise import *
 from Phase import *
 from key import *
+
+print("#### DÉMARAGE DE L'APPLICATION ####")
 
 def write_to_log(fichier: str, level: int, message: str):
     fichier = f"var/{fichier}.log"
@@ -18,6 +21,17 @@ def write_to_log(fichier: str, level: int, message: str):
     log_message = f"[{timestamp}] [{log_levels[level]}] - {message}\n"
     with open(fichier, "a") as log_file:
         log_file.write(log_message)
+
+# Lancement dy serveur flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=80)
+
 
 # Chargement des fichier JSON et de leur contenu
 write_to_log("statut", 2, f"#### DÉMARAGE DE L'APPLICATION ####")
@@ -34,8 +48,10 @@ write_to_log("statut", 1, f"Récupération des différentes phase de récutement
 
 # Pour toute les entreprise qui ne sont pas en WAITING mode envoyer un mail si nécéssaire
 time = datetime.today
+print(" [  OK  ] - Démarage de la boucle infini")
 while 1: 
     if (time != datetime.today):
+        print(f" [  OK  ] - Acctualisation de mail - {datetime.today}")
         for e in objets_entreprise:
             if e.active:
                 jours_ecoules, phase , nombre_mail_phase = time_since_last_email(e)
@@ -54,3 +70,4 @@ while 1:
         a=0 # pour pas faire chier avec l'indentation
                 
 write_to_log("statut", 3, f"Sortie de la boucle principale")
+print("#### FIN DU PROGRAMME ####")

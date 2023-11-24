@@ -1,1 +1,21 @@
-[]
+[
+    {
+        "mail_recu": "balbal",
+        "date_récéption": "blabla",
+        "adresse_de_récéption": "blabla",
+        "mail_généré": "blabla",
+        "phase": "blabla",
+        "sujet_du_mail": "blabla",
+        "nombre_de_relance": "blabla"
+    },
+    {
+        "mail_recu": "balbal 2",
+        "date_récéption": "blabla 2",
+        "adresse_de_récéption": "blabla 2",
+        "mail_généré": "blabla 2",
+        "phase": "blabla 2",
+        "sujet_du_mail": "blabla 2",
+        "nombre_de_relance": "blabla 2"
+    },
+    {}
+]
