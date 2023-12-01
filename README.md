@@ -12,3 +12,8 @@ Pour fonctionner, le programme a besoin d'un fichier `key.py` qui est de la form
     openAI_key = 'votre_api_key'
     mail_password = 'votre_password_mail'   
 ```
+Le programme fonctionne grace aà 4 programme python qui sont executer grace à cron. 
+- mail_collection.py
+- mail_writing.py
+- mail_to_send.py
+- mail_to_send.py

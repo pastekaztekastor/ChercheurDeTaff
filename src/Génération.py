@@ -1,7 +1,6 @@
 import json
 import os
 from datetime import datetime
-from flask import Flask
 from Entreprise import *
 from Phase import *
 from key import *
@@ -9,7 +8,7 @@ from key import *
 print("#### DÉMARAGE DE L'APPLICATION ####")
 
 def write_to_log(fichier: str, level: int, message: str):
-    fichier = f"var/{fichier}.log"
+    fichier = f"/home/mathurin/Git/ChercheurDeTaff/var/{fichier}.log"
     log_levels = {
         1: "INFO",
         2: "WARNING",
@@ -22,28 +21,17 @@ def write_to_log(fichier: str, level: int, message: str):
     with open(fichier, "a") as log_file:
         log_file.write(log_message)
 
-# Lancement dy serveur flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
-
-
 # Chargement des fichier JSON et de leur contenu
 write_to_log("statut", 2, f"#### DÉMARAGE DE L'APPLICATION ####")
-json_entreprise     = "data/entreprise.json"
+json_entreprise = "data/entreprise.json"
 write_to_log("statut", 1, f"Chargement de entreprise.json : '{json_entreprise}'")
-json_phase          = "data/phase.json"
+json_phase = "data/phase.json"
 write_to_log("statut", 1, f"Chargement de phase.json : '{json_phase}'")
-objets_entreprise   = loadJsonEntreprise(json_entreprise)
+objets_entreprise = loadJsonEntreprise(json_entreprise)
 write_to_log("statut", 1, f"Chargement des objet de '{json_entreprise}' : {len(objets_entreprise)} objet(s) chargé(s)")
-objets_phase        = loadJsonPhase(json_phase)
+objets_phase = loadJsonPhase(json_phase)
 write_to_log("statut", 1, f"Chargement des objet de '{json_phase}' : {len(objets_phase)} objet(s) chargé(s)")
-liste_phase         = [element.nom for element in objets_phase]
+liste_phase = [element.nom for element in objets_phase]
 write_to_log("statut", 1, f"Récupération des différentes phase de récutement : {liste_phase}")
 
 # Pour toute les entreprise qui ne sont pas en WAITING mode envoyer un mail si nécéssaire
