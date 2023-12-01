@@ -1,36 +1,13 @@
-import json
-import os
 from datetime import datetime
-from flask import Flask
-from Entreprise import *
-from Phase import *
+
+from data_company import *
+from data_phase import *
+from data_mail import *
+
+from utils import *
 from key import *
 
 print("#### DÉMARAGE DE L'APPLICATION ####")
-
-def write_to_log(fichier: str, level: int, message: str):
-    fichier = f"var/{fichier}.log"
-    log_levels = {
-        1: "INFO",
-        2: "WARNING",
-        3: "ERROR"
-    }
-    if level not in log_levels:
-        raise ValueError("Niveau de log non valide")
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    log_message = f"[{timestamp}] [{log_levels[level]}] - {message}\n"
-    with open(fichier, "a") as log_file:
-        log_file.write(log_message)
-
-# Lancement dy serveur flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
 
 
 # Chargement des fichier JSON et de leur contenu

@@ -56,9 +56,8 @@ def updateJsonWaitingMail(elements, json_file):
         json.dump(data, file, indent=4)
 
     
-def add_wainting_mail(objets_entreprise, contenu_mail_recu, sujet_mail_recu, adresse_mail_recu){
-    
-}
+def add_wainting_mail(objets_entreprise, contenu_mail_recu, sujet_mail_recu, adresse_mail_recu):
+    bite = 0
 
 def mail_is_answer(objets_entreprise, adresse_mail_recu) -> bool:
     for entreprise in objets_entreprise:
